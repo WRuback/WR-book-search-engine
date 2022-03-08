@@ -33,6 +33,7 @@ const typeDefs = gql`
         description: String
         title: String
         image: String
+        link: String
     }
 
     type Mutation {

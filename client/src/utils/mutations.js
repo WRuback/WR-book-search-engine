@@ -37,6 +37,7 @@ mutation saveBook($newBook: BookInput!) {
             description
             title
             image
+            link
           }
   }
 }
@@ -55,6 +56,7 @@ mutation removeBook($bookId: String!) {
             description
             title
             image
+            link
           }
   }
 }
